@@ -1,12 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_female_citizen">
+  <Attack>
+    <Melee>
+      <Damage>
+        <Hack>20.0</Hack>
+        <Pierce>10</Pierce>
+        <Crush>10</Crush>
+      </Damage>
+      <MaxRange>20</MaxRange>
+      <PrepareTime>5</PrepareTime>
+      <RepeatTime>10</RepeatTime>
+    </Melee>
+    <Slaughter>
+      <Damage>
+        <Hack>25.0</Hack>
+        <Pierce>58.0</Pierce>
+        <Crush>20.0</Crush>
+      </Damage>
+      <MaxRange>20</MaxRange>
+    </Slaughter>
+  </Attack>
+  <Builder>
+    <Rate>10.0</Rate>
+    <Entities datatype="tokens">
+      structures/{civ}_barracks
+      structures/{civ}_civil_centre
+      structures/{civ}_crannog
+      structures/{civ}_military_colony
+      structures/{civ}_house
+      structures/{civ}_storehouse
+      structures/{civ}_farmstead
+      structures/{civ}_field
+      structures/{civ}_corral
+      structures/{civ}_dock
+      structures/{civ}_temple
+      structures/{civ}_market
+      structures/{civ}_wonder
+    </Entities>
+  </Builder>
+  <Health>
+    <Max>500</Max>
+  </Health>
+  <Cost>
+    <Resources>
+      <food>0</food>
+    </Resources>
+  </Cost>
   <Identity>
-    <Civ>athen</Civ>
+    <Civ>Yolon</Civ>
     <SpecificName>Gýnē Athēnaía</SpecificName>
-    <GenericName>Athenian Woman</GenericName>
+    <GenericName>Yolonian Woman</GenericName>
     <Icon>units/hele_support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/vikings/female_citizen.xml</Actor>
+    <Actor>units/yolon/female_citizen.xml</Actor>
   </VisualActor>
+  <ResourceGatherer>
+    <MaxDistance>5.0</MaxDistance>
+    <BaseSpeed>5.0</BaseSpeed>
+    <Rates>
+      <food.fruit>10</food.fruit>
+      <food.grain>10</food.grain>
+      <food.meat>10</food.meat>
+      <wood.tree>10</wood.tree>
+      <wood.ruins>10</wood.ruins>
+      <stone.rock>10</stone.rock>
+      <stone.ruins>10</stone.ruins>
+      <metal.ore>10</metal.ore>
+    </Rates>
+  </ResourceGatherer>
+  <Sound>
+    <SoundGroups>
+      <trained>interface/alarm/alarm_create_female.xml</trained>
+      <select>voice/global/athenian_woman_select.xml</select>
+      <order_walk>voice/{lang}/civ/civ_{phenotype}_walk.xml</order_walk>
+      <order_attack>voice/{lang}/civ/civ_{phenotype}_attack.xml</order_attack>
+      <order_build>voice/{lang}/civ/civ_{phenotype}_build.xml</order_build>
+      <order_gather>voice/{lang}/civ/civ_{phenotype}_gather.xml</order_gather>
+      <order_repair>voice/{lang}/civ/civ_{phenotype}_repair.xml</order_repair>
+      <order_garrison>voice/{lang}/civ/civ_{phenotype}_garrison.xml</order_garrison>
+      <attack_melee>attack/weapon/sword.xml</attack_melee>
+      <death>actor/human/death/{phenotype}_death.xml</death>
+      <build>resource/construction/con_wood.xml</build>
+      <gather_fruit>resource/foraging/forage_leaves.xml</gather_fruit>
+      <gather_grain>resource/farming/farm.xml</gather_grain>
+      <gather_tree>resource/lumbering/lumbering.xml</gather_tree>
+      <gather_rock>resource/mining/pickaxe.xml</gather_rock>
+      <gather_ore>resource/mining/mining.xml</gather_ore>
+      <gather_ruins>resource/mining/mining.xml</gather_ruins>
+    </SoundGroups>
+  </Sound>
 </Entity>
