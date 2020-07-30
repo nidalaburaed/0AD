@@ -4,6 +4,9 @@
 		{
 			"Title": "Programming managers",
 			"List": [
+				{ "nick": "nidala", "name": "Nidal Abu Raed" },
+				{ "nick": "micheal", "name": "Micheal Tuape" },
+				{ "nick": "Tatu", "name": "Tatu Kosonen" },
 				{ "nick": "Acumen", "name": "Stuart Walpole" },
 				{ "nick": "Dak Lozar", "name": "Dave Loeser" },
 				{ "nick": "h20", "name": "Daniel Wilhelm" },
