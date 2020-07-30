@@ -1,0 +1,9 @@
+{
+	"genericName": "super expansion",
+	"autoResearch": true,
+	"description": "Vikingsa are happy, and they like expanding the population. That is why their maximum population is 10x bigger than ever before.",
+	"requirements": { "civ": "vikings" },
+	"icon": "population.png",
+	"tooltip": "Vikings have 10x population limit.",
+	"modifications": [{ "value": "Player/MaxPopulation", "multiply": 10 }]
+  }
