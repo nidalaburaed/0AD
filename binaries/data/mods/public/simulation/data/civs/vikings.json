@@ -108,7 +108,7 @@
 	],
 	"WallSets": [
 		"structures/wallset_palisade",
-		"structures/athen_wallset_stone"
+		"structures/vikings_wallset_stone"
 	],
 	"StartEntities": [
 		{
@@ -116,15 +116,15 @@
 		},
 		{
 			"Template": "units/vikings_support_female_citizen",
-			"Count": 4
+			"Count": 10
 		},
 		{
 			"Template": "units/vikings_infantry_spearman_b",
-			"Count": 2
+			"Count": 20
 		},
 		{
 			"Template": "units/vikings_infantry_slinger_b",
-			"Count": 2
+			"Count": 20
 		},
 		{
 			"Template": "units/vikings_cavalry_javelinist_b"
