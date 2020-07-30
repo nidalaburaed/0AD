@@ -12,5 +12,5 @@
 	<PitchLower>1</PitchLower>
 	<Threshold>1</Threshold>
 	<Path>audio/voice/global</Path>
-	<Sound>athenia-woman.ogg</Sound>
+	<Sound>vikings-woman.ogg</Sound>
 </SoundGroup>
