@@ -23,7 +23,11 @@
   <Builder>
     <Rate>10.0</Rate>
     <Entities datatype="tokens">
+<<<<<<< HEAD
       structures/{civ}_free_barracks
+=======
+      structures/{civ}_barracks
+>>>>>>> 817031999c389a1e211f8169bd07fe4b987d0a6a
       structures/{civ}_civil_centre
       structures/{civ}_crannog
       structures/{civ}_military_colony
@@ -47,6 +51,7 @@
     </Resources>
   </Cost>
   <Identity>
+<<<<<<< HEAD
     <Civ>athen</Civ>
     <SpecificName>Gýnē Athēnaía</SpecificName>
     <GenericName>Athenian Woman</GenericName>
@@ -54,6 +59,15 @@
   </Identity>
   <VisualActor>
     <Actor>units/athenians/female_citizen.xml</Actor>
+=======
+    <Civ>Vikings</Civ>
+    <SpecificName>Gýnē Athēnaía</SpecificName>
+    <GenericName>Vikings Woman</GenericName>
+    <Icon>units/hele_support_female_citizen.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/vikings/female_citizen.xml</Actor>
+>>>>>>> 817031999c389a1e211f8169bd07fe4b987d0a6a
   </VisualActor>
   <ResourceGatherer>
     <MaxDistance>5.0</MaxDistance>
