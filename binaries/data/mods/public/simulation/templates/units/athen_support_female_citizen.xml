@@ -7,6 +7,6 @@
     <Icon>units/hele_support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/athenians/female_citizen.xml</Actor>
+    <Actor>units/vikings/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>
